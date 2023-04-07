@@ -5,7 +5,7 @@ Programa que aplica filtro de imagenes en formato bmp con hilos en c
 
 Instucciones: 
     
-   -> https://github.com/davidfer1112/Filtro_imagen/blob/main/proy.c <-
+   -> https://github.com/davidfer1112/Filtro_imagen/blob/main/Ejecucion%20programa.txt <-
 
 Programa: 
     
