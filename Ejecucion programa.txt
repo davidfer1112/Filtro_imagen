@@ -1,0 +1,19 @@
+
+Instructivo para ejecutar el programa:
+
+Compilar(Cocalc): gcc -o nombre_ejecutble nombre_archivo.c -l pthread
+
+Nota: pthread es la librería que se utiliza en el archivo, por esta razón tiene que incluirse en la ejecución.
+
+Compilar(Replit): gcc -Wno-unused-result nombre_archivo.c -o nombre_ejecutable
+
+
+Ejecutar: ./archi -i imagen_entrada.bmp -t imagen_salida.bmp -o 3 -h 2
+	
+-i: indica la imagen a la cual se le quiere aplicar la modificación.
+
+-t: se debe indicar el nombre de la imagen modificada que se le quiere poner.
+
+-o: se debe de indicar la opción de modificación que se le quiere aplicar a la imagen, siendo la opción 1 modificación blanco y negro, modificación 2 promedio de color por pixel y la opción 3 es personalizada.
+
+-h: se ingresa la cantidad de hilos con los cuales se quiere dividir el proceso, las opciones son 2, 4, 6, 8, 10 y 12,.
