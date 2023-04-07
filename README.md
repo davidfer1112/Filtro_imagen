@@ -3,11 +3,12 @@
 Programa que aplica filtro de imagenes en formato bmp con hilos en c
 
 
-      Instruccion de porgrama: 
+Instruccion de porgrama: 
                                   ->  <-
 
-      Programa: 
-                                  -> https://github.com/davidfer1112/Filtro_imagen/blob/main/proy.c <-
+Documentación: 
+    
+   -> https://github.com/davidfer1112/Filtro_imagen/blob/main/proy.c <-
 
 
       Nota: se ejecuta desde consola (leer instucciones)
