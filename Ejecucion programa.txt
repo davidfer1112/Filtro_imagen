@@ -1,4 +1,6 @@
 
+-------------/// Español \\\-------------
+
 Instructivo para ejecutar el programa:
 
 Compilar(Cocalc): gcc -o nombre_ejecutble nombre_archivo.c -l pthread
@@ -17,3 +19,27 @@ Ejecutar: ./archi -i imagen_entrada.bmp -t imagen_salida.bmp -o 3 -h 2
 -o: se debe de indicar la opción de modificación que se le quiere aplicar a la imagen, siendo la opción 1 modificación blanco y negro, modificación 2 promedio de color por pixel y la opción 3 es personalizada.
 
 -h: se ingresa la cantidad de hilos con los cuales se quiere dividir el proceso, las opciones son 2, 4, 6, 8, 10 y 12,.
+
+
+-------------/// English \\\-------------
+
+Instructions to run the program:
+
+Compile(Cocalc): gcc -o executable_file_name.c -l pthread
+
+Note: pthread is the library used in the file, for this reason it has to be included in the execution.
+
+Compile(Replit): gcc -Wno-unused-result filename.c -o executable_filename
+
+
+Execute: ./archi -i input_image.bmp -t output_image.bmp -o 3 -h 2
+	
+-i: indicates the image to which you want to apply the modification.
+
+-t: indicate the name of the modified image you want to apply.
+
+-o: indicate the modification option that you want to apply to the image, being option 1 black and white modification, modification 2 average color per pixel and option 3 is customized.
+
+-h: enter the number of threads with which you want to divide the process, the options are 2, 4, 6, 8, 8, 10 and 12.
+
+Translated with www.DeepL.com/Translator (free version)
